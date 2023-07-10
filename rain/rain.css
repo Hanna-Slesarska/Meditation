@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+#myVideo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#countdown {
+    margin-top: 100px;
+    background-color: transparent;
+    background-image: linear-gradient(225deg, rgba(115, 118, 123, 0.5) 0%, rgba(85, 106, 90, 0.7) 100%);
+    padding: 20px 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.play-btn {
+    display:flex ;
+    justify-content: center;
+}
+#myButton {
+    background-color: transparent;
+    border: none; 
+    font-weight: bold;
+}
+#myButton:hover {
+    cursor: pointer;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
